@@ -114,6 +114,8 @@ This section will explain each of the operations performed by the script in the 
 
 "This line inserts two columns in the test set. The first containing the activity's label, and the second the subject who performed it. Each row will thus be composed by the Activity, the Subject and the measurements for that condition."
 
+The following titles refers to which step of the question is being worked on.
+
 ### Step 1
 
 * superset <- rbind(Testset,Trainset)
